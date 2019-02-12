@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ebeaf6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/relativebackground"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="90dp">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_below="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:drawableLeft="@drawable/ic_action_username"
+            android:hint="Enter Name"
+            android:inputType="textPersonName"
+            tools:ignore="NotSibling" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_below="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignEnd="@+id/editText2"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="2dp"
+            android:drawableLeft="@drawable/ic_action_email"
+            android:ems="10"
+            android:hint="Enter Email Address"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_below="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignEnd="@+id/editText2"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="2dp"
+            android:drawableLeft="@drawable/ic_action_call"
+            android:ems="10"
+            android:hint="Enter Phone number"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editCaNumber"
+            android:layout_below="@+id/phoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:ems="10"
+            android:drawableLeft="@drawable/ic_action_username"
+            android:hint="Enter CA's Name"
+            android:inputType="textPersonName"
+            tools:ignore="NotSibling" />
+
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_below="@+id/editCaNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button"
+            android:layout_marginTop="10dp"
+            android:text="REGISTER"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="202dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relative"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:text="PERSONAL DETAILS"
+            tools:ignore="NotSibling" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="2sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:drawableLeft="@drawable/ic_action_copyright"
+        android:padding="10dp"
+        android:text="HANDSEL APPLICATIONS" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:drawableLeft="@drawable/ic_action_privacy"
+        android:text="PRIVACY POLICY" />
+
+</RelativeLayout>

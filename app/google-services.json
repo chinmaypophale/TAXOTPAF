@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "971076968914",
+    "firebase_url": "https://tax-otp.firebaseio.com",
+    "project_id": "tax-otp",
+    "storage_bucket": "tax-otp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971076968914:android:1ae443b73438e4f2",
+        "android_client_info": {
+          "package_name": "com.dexterlabs.taxotpaf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971076968914-b00sthdicfbjaqmpgdo5k4c196r11rc4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dexterlabs.taxotpaf",
+            "certificate_hash": "03bd8005edf1bb05f5567aa1ee7f9256be4ee43b"
+          }
+        },
+        {
+          "client_id": "971076968914-pt9v73r64llv5ubr9b7ncl7vnj0ep1n9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdPM3ZtnOQGv2Ag5BB5jRa5qUcj_dfUlk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971076968914-pt9v73r64llv5ubr9b7ncl7vnj0ep1n9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
